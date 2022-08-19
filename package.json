@@ -1,0 +1,19 @@
+{
+  "name": "accretio-signin-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "sass": "^1.54.4",
+    "scss": "^0.2.4"
+  }
+}

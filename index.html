@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accretio Sign Up page</title>
+  </head>
+  <body>
+    <div id="app">
+<div class="outer-container">
+  <div class="left-container">
+
+  </div>
+
+  <div class="right-container">
+    <div class="outer-form-container">
+      <div class="form-container">
+
+      <div class="intro-text">
+        <h1>Create an Accretio Account</h1>
+        <p class="para">Create an accretio account and gain access to our interesting features as you create, manage and collaborate with contributors on projects</p>
+      </div>
+
+      <button class="with-google">
+        <img src="/google-image.svg" alt="google" />
+        <span>Create with Google Account</span>
+      </button>
+
+      <p class="text-center">or</p>
+
+      <form  class="signup-form">
+        <label for="fullname">Full Name</label>
+        <input type="text" class="field name-field" placeholder="Enter your full name">
+
+        <label for="email">Email</label>
+        <input type="text" class="field email-field" placeholder="Enter your Email Address">
+
+
+        <label for="email">Create a strong password</label>
+        <input type="text" class="field password-field" placeholder="Create  a strong password">
+
+        <div class="password-validation-section">
+
+          <div class="validation-option">
+            <label for="uppercase"><img src="/checkbox.svg" alt="checkbox"/>Minimum of 1 Uppercase</label>
+          </div>
+
+          <div class="validation-option">
+            <label for="lowercase"><img src="/checkbox.svg" alt="checkbox"/>Minimum of 1 Lowercase</label>
+            </div>
+
+          <div class="validation-option">
+            <label for="number"><img src="/checkbox.svg" alt="checkbox"/>Minimum of 6 characters</label>
+          </div>
+
+        </div>
+
+        <div class="checkbox"></div>
+        <label for="agree">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+
+        <button type="submit" class="submit">Create account</button>
+        <p class="signin">Already a user? <a href="" class="dark-link">Login</a></p>
+
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
